@@ -1,0 +1,37 @@
+# Names
+funtimecoding
+podman
+shiin
+
+# go-library
+gobuild
+golint
+goupdate
+
+# Task
+cmds
+
+# Go
+golangci
+gotest
+gotestsum
+
+# OS
+aarch
+
+# Unix
+urandom
+
+# XML
+xmlns
+
+# libvirt
+libvirt
+virt
+libosinfo
+virtio
+libvirtd
+
+# QEMU
+qcow
+xhci
