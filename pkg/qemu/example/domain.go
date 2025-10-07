@@ -9,10 +9,10 @@ func Domain() {
 	c := qemu.New()
 	defer c.Close()
 
-	for _, element := range c.Domains() {
-		fmt.Printf("Domain: %+v\n", element.Raw.Name)
+	for _, d := range c.Domains() {
+		fmt.Printf("Domain: %+v\n", d.Raw.Name)
 
-		for _, inner := range element.Raw.Devices.Interfaces {
+		for _, inner := range d.Raw.Devices.Interfaces {
 			fmt.Printf("Hardware address: %+v\n", inner.MAC.Address)
 		}
 	}

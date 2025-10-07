@@ -12,7 +12,7 @@ func (c *Client) Close() {
 		errors.PanicOnError(c.digital.Disconnect())
 	}
 
-	for _, element := range c.monitors {
-		errors.PanicOnError(element.Disconnect())
+	for _, m := range c.monitors {
+		errors.PanicOnError(m.Disconnect())
 	}
 }

@@ -4,12 +4,12 @@ import "net"
 
 func FirstUnused(
 	start net.HardwareAddr,
-	input []net.HardwareAddr,
+	v []net.HardwareAddr,
 ) net.HardwareAddr {
 	result := start
 
-	for _, element := range input {
-		if LessThan(result, element) {
+	for _, e := range v {
+		if LessThan(result, e) {
 			break
 		}
 

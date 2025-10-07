@@ -10,8 +10,8 @@ import (
 func (c *Client) Domains() []*domain.Domain {
 	var result []*libvirtxml.Domain
 
-	for _, element := range c.domains() {
-		result = append(result, LoadDomain(&element))
+	for _, d := range c.domains() {
+		result = append(result, LoadDomain(&d))
 	}
 
 	return domain.NewSlice(result)

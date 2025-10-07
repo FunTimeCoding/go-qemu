@@ -10,8 +10,8 @@ import (
 func (c *Client) HardwareAddresses() []net.HardwareAddr {
 	var result []net.HardwareAddr
 
-	for _, element := range c.Domains() {
-		for _, inner := range element.Raw.Devices.Interfaces {
+	for _, d := range c.Domains() {
+		for _, inner := range d.Raw.Devices.Interfaces {
 			result = append(
 				result,
 				network.PhysicalAddress(inner.MAC.Address),

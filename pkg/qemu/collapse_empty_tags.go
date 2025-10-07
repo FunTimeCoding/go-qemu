@@ -6,11 +6,11 @@ import (
 	"strings"
 )
 
-func CollapseEmptyTags(input string) string {
+func CollapseEmptyTags(s string) string {
 	r := regexp.MustCompile(`<([a-zA-Z0-9]+)(.*?)>(.*?)</([a-zA-Z0-9]+)>`)
 
 	return r.ReplaceAllStringFunc(
-		input,
+		s,
 		func(match string) string {
 			tag := r.ReplaceAllString(match, "$1")
 			attributes := r.ReplaceAllString(match, "$2")

@@ -2,11 +2,11 @@ package domain
 
 import "libvirt.org/go/libvirtxml"
 
-func NewSlice(input []*libvirtxml.Domain) []*Domain {
+func NewSlice(v []*libvirtxml.Domain) []*Domain {
 	var result []*Domain
 
-	for _, element := range input {
-		result = append(result, New(element))
+	for _, e := range v {
+		result = append(result, New(e))
 	}
 
 	return result
