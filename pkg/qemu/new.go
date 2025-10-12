@@ -6,6 +6,7 @@ import (
 	"github.com/funtimecoding/go-library/pkg/errors"
 	"github.com/funtimecoding/go-library/pkg/system"
 	"github.com/funtimecoding/go-library/pkg/system/constant"
+	"github.com/funtimecoding/go-library/pkg/system/join"
 	"libvirt.org/go/libvirt"
 	"time"
 )
@@ -31,6 +32,6 @@ func New() *Client {
 		socket:          socket,
 		domain:          "development",
 		hardwareAddress: "52:54:00:00:00:00",
-		diskDirectory:   system.Join(system.Home(), constant.DownloadsPath),
+		diskDirectory:   join.Absolute(system.Home(), constant.DownloadsPath),
 	}
 }

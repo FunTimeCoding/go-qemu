@@ -3,7 +3,7 @@ package qemu
 import (
 	"fmt"
 	"github.com/funtimecoding/go-library/pkg/errors"
-	"github.com/funtimecoding/go-library/pkg/system"
+	"github.com/funtimecoding/go-library/pkg/system/join"
 	"libvirt.org/go/libvirt"
 	"libvirt.org/go/libvirtxml"
 	"net"
@@ -82,7 +82,7 @@ func (c *Client) CreateDomain(
 					},
 					Source: &libvirtxml.DomainDiskSource{
 						File: &libvirtxml.DomainDiskSourceFile{
-							File: system.Join(
+							File: join.Absolute(
 								c.diskDirectory,
 								fmt.Sprintf("%s.qcow2", name),
 							),

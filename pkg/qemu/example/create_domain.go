@@ -6,6 +6,7 @@ import (
 	"github.com/funtimecoding/go-library/pkg/debian/image"
 	"github.com/funtimecoding/go-library/pkg/system"
 	"github.com/funtimecoding/go-library/pkg/system/constant"
+	"github.com/funtimecoding/go-library/pkg/system/join"
 	"github.com/funtimecoding/go-qemu/pkg/qemu"
 )
 
@@ -14,7 +15,7 @@ func CreateDomain() {
 	defer c.Close()
 
 	v := debian.Bookworm.Version()
-	installImage := system.Join(
+	installImage := join.Absolute(
 		system.Home(),
 		constant.DownloadsPath,
 		image.Name(v, "arm64"),
