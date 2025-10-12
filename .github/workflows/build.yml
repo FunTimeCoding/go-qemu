@@ -7,6 +7,10 @@ jobs:
     steps:
     - {name: Repository, uses: actions/checkout@v4}
     - {name: Go, uses: actions/setup-go@v5, with: {go-version-file: go.mod}}
+    - name: libvirt
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libvirt-dev
     - {name: Dependency, run: 'go mod tidy'}
     - name: Task
       # https://github.com/go-task/task/releases
