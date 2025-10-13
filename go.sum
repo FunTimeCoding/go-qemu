@@ -9,6 +9,8 @@ github.com/digitalocean/go-qemu v0.0.0-20250212194115-ee9b0668d242 h1:rh6rt8pF5U
 github.com/digitalocean/go-qemu v0.0.0-20250212194115-ee9b0668d242/go.mod h1:LGHUtlhsY4vRGM6AHejEQKVI5e3eHbSylMHwTSpQtVw=
 github.com/funtimecoding/go-library v0.10.168 h1:PlnWuCnlKVPSS4gzf4LigGL1yptdq7qvGzxCOHmdSqY=
 github.com/funtimecoding/go-library v0.10.168/go.mod h1:0qcmiJGXrJ0L+EToKpzNpneHW2Tx1hUHQ4tK781lcG0=
+github.com/funtimecoding/go-library v0.10.169 h1:jtkDhmpxSFACyQzBVftIxOWnc+6HvXXBYECyX979ajA=
+github.com/funtimecoding/go-library v0.10.169/go.mod h1:HZbIlSucijEltSJG1NF4J9jS/xGsUV9TKKATsCSIPf8=
 github.com/google/go-cmp v0.7.0 h1:wk8382ETsv4JYUZwIsn6YpYiWiBsYLSJiTsyBybVuN8=
 github.com/google/go-cmp v0.7.0/go.mod h1:pXiqmnSA92OHEEa9HXL2W4E7lf9JzCmGVUdgjX3N/iU=
 github.com/pmezard/go-difflib v0.0.0-20151028094244-d8ed2627bdf0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
