@@ -5,6 +5,8 @@ github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc h1:U9qPSI2PIWSS1
 github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/digitalocean/go-libvirt v0.0.0-20250923171224-1d0cf4034554 h1:Dg3qeo54v2jZWthKBPapIv+/twOt+CuJ0SQ+/gAmkLo=
 github.com/digitalocean/go-libvirt v0.0.0-20250923171224-1d0cf4034554/go.mod h1:CuiC6WgaUa35SLyR8x926D5ZVTXQ8bB9/f8r/FACTlo=
+github.com/digitalocean/go-libvirt v0.0.0-20251014225438-3d9fc6d90050 h1:msyAdkiJIdkItVWHUJmdTSz0/uxYkdtH2T5gvxi8kXc=
+github.com/digitalocean/go-libvirt v0.0.0-20251014225438-3d9fc6d90050/go.mod h1:EKfpWUinvh3AsB6a9lvCR2a2QjLaJtwa5mBaBav2g6A=
 github.com/digitalocean/go-qemu v0.0.0-20250212194115-ee9b0668d242 h1:rh6rt8pF5U4iyQ86h6lRDenJoX4ht2wFnZXB9ogIrIM=
 github.com/digitalocean/go-qemu v0.0.0-20250212194115-ee9b0668d242/go.mod h1:LGHUtlhsY4vRGM6AHejEQKVI5e3eHbSylMHwTSpQtVw=
 github.com/funtimecoding/go-library v0.10.168 h1:PlnWuCnlKVPSS4gzf4LigGL1yptdq7qvGzxCOHmdSqY=
