@@ -35,3 +35,6 @@ libvirtd
 # QEMU
 qcow
 xhci
+
+# Renovate
+automerge
