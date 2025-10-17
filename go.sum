@@ -17,6 +17,8 @@ github.com/funtimecoding/go-library v0.10.173 h1:FDG+IQZEnuM0qcTftodJjfssQHjbNsH
 github.com/funtimecoding/go-library v0.10.173/go.mod h1:dRcqcaA+HhEvqQweZYWbMC+Q92HPCI/22UX3IQvLdZc=
 github.com/funtimecoding/go-library v0.10.174 h1:kzQSESjyoo48gBn6CeoojxJ/I73J0n229hoy2Skf0Xk=
 github.com/funtimecoding/go-library v0.10.174/go.mod h1:rWMKDyHv8nxMtrIvbuOkZjvwveM+WZsvL/qI113jQPs=
+github.com/funtimecoding/go-library v0.10.175 h1:Yfd3XE83s22Em8+nP6iXGPNiEBqCA/a5APvYbXeXdfQ=
+github.com/funtimecoding/go-library v0.10.175/go.mod h1:lgJHG8FPUDPN0X8xLJNxXtuUtlQWoFYVB7FA6O7rBJ4=
 github.com/google/go-cmp v0.7.0 h1:wk8382ETsv4JYUZwIsn6YpYiWiBsYLSJiTsyBybVuN8=
 github.com/google/go-cmp v0.7.0/go.mod h1:pXiqmnSA92OHEEa9HXL2W4E7lf9JzCmGVUdgjX3N/iU=
 github.com/pmezard/go-difflib v0.0.0-20151028094244-d8ed2627bdf0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
