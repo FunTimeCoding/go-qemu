@@ -7,7 +7,7 @@ require (
 	github.com/digitalocean/go-qemu v0.0.0-20250212194115-ee9b0668d242
 	github.com/funtimecoding/go-library v0.10.224
 	libvirt.org/go/libvirt v1.11010.0
-	libvirt.org/go/libvirtxml v1.11009.0
+	libvirt.org/go/libvirtxml v1.11010.0
 )
 
 require (
