@@ -3,14 +3,12 @@ github.com/coreos/go-semver v0.3.1/go.mod h1:irMmmIw/7yzSRPWryHsK7EYSg09caPQL03V
 github.com/davecgh/go-spew v0.0.0-20161028175848-04cdfd42973b/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc h1:U9qPSI2PIWSS1VwoXQT9A3Wy9MM3WgvqSxFWenqJduM=
 github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/digitalocean/go-libvirt v0.0.0-20251120220305-e19c2691f7c2 h1:00FNOrh3lyaVdQRhqMqTJAf3LcdIlRvpYrWmxGvnMvA=
-github.com/digitalocean/go-libvirt v0.0.0-20251120220305-e19c2691f7c2/go.mod h1:LPnY0u5aVDhLxExjB6yN79MuPUuICM5TY1omPFEAxn8=
 github.com/digitalocean/go-libvirt v0.0.0-20251202224409-8b0babaf9393 h1:hCM2P/eR7IB06OpCMOMzCavv2e1vr4lo6xO7Z+bMMlI=
 github.com/digitalocean/go-libvirt v0.0.0-20251202224409-8b0babaf9393/go.mod h1:LPnY0u5aVDhLxExjB6yN79MuPUuICM5TY1omPFEAxn8=
 github.com/digitalocean/go-qemu v0.0.0-20250212194115-ee9b0668d242 h1:rh6rt8pF5U4iyQ86h6lRDenJoX4ht2wFnZXB9ogIrIM=
 github.com/digitalocean/go-qemu v0.0.0-20250212194115-ee9b0668d242/go.mod h1:LGHUtlhsY4vRGM6AHejEQKVI5e3eHbSylMHwTSpQtVw=
-github.com/funtimecoding/go-library v0.10.224 h1:gvkeXvzh4/TUSB0yELirhMctyCOt2/LUzkiIH5BWP7U=
-github.com/funtimecoding/go-library v0.10.224/go.mod h1:zt9nP5t4KR0HNRzSaEQkjGIJi3MumiVt1V1+jeihJ5U=
+github.com/funtimecoding/go-library v0.10.225 h1:DzKakmxmkE4VsjmGXL3aWQEgimoDdvLT9Ga83n1DT6U=
+github.com/funtimecoding/go-library v0.10.225/go.mod h1:8DUANAOXa3jnfC8V3UNNFaYKzQHxpRbytDHWQZ7/2vg=
 github.com/go-openapi/errors v0.22.4 h1:oi2K9mHTOb5DPW2Zjdzs/NIvwi2N3fARKaTJLdNabaM=
 github.com/go-openapi/errors v0.22.4/go.mod h1:z9S8ASTUqx7+CP1Q8dD8ewGH/1JWFFLX/2PmAYNQLgk=
 github.com/go-openapi/strfmt v0.25.0 h1:7R0RX7mbKLa9EYCTHRcCuIPcaqlyQiWNPTXwClK0saQ=
