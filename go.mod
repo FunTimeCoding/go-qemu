@@ -5,7 +5,7 @@ go 1.25.5
 require (
 	github.com/digitalocean/go-libvirt v0.0.0-20251202224409-8b0babaf9393
 	github.com/digitalocean/go-qemu v0.0.0-20250212194115-ee9b0668d242
-	github.com/funtimecoding/go-library v0.10.226
+	github.com/funtimecoding/go-library v0.10.228
 	libvirt.org/go/libvirt v1.11010.0
 	libvirt.org/go/libvirtxml v1.11010.0
 )
