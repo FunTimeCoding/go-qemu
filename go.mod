@@ -5,7 +5,7 @@ go 1.25.5
 require (
 	github.com/digitalocean/go-libvirt v0.0.0-20260106181248-56be673cd6a5
 	github.com/digitalocean/go-qemu v0.0.0-20250212194115-ee9b0668d242
-	github.com/funtimecoding/go-library v0.10.254
+	github.com/funtimecoding/go-library v0.10.256
 	libvirt.org/go/libvirt v1.11010.0
 	libvirt.org/go/libvirtxml v1.11010.0
 )
@@ -18,7 +18,7 @@ require (
 	github.com/sanity-io/litter v1.5.8 // indirect
 	github.com/stretchr/testify v1.11.1 // indirect
 	golang.org/x/crypto v0.46.0 // indirect
-	golang.org/x/mod v0.31.0 // indirect
+	golang.org/x/mod v0.32.0 // indirect
 	golang.org/x/sys v0.39.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gotest.tools/v3 v3.5.2 // indirect
