@@ -3,7 +3,7 @@ module github.com/funtimecoding/go-qemu
 go 1.25.6
 
 require (
-	github.com/digitalocean/go-libvirt v0.0.0-20260126183639-bb11c33248dc
+	github.com/digitalocean/go-libvirt v0.0.0-20260127224054-f7013236e99a
 	github.com/digitalocean/go-qemu v0.0.0-20250212194115-ee9b0668d242
 	github.com/funtimecoding/go-library v0.10.272
 	libvirt.org/go/libvirt v1.11010.0
