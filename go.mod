@@ -5,7 +5,7 @@ go 1.26.2
 require (
 	github.com/digitalocean/go-libvirt v0.0.0-20260217163227-273eaa321819
 	github.com/digitalocean/go-qemu v0.0.0-20250212194115-ee9b0668d242
-	github.com/funtimecoding/go-library v0.10.419
+	github.com/funtimecoding/go-library v0.10.420
 	libvirt.org/go/libvirt v1.12002.0
 	libvirt.org/go/libvirtxml v1.12002.0
 )
@@ -13,13 +13,11 @@ require (
 require (
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
-	github.com/getsentry/sentry-go v0.46.1 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/sanity-io/litter v1.5.8 // indirect
 	golang.org/x/crypto v0.50.0 // indirect
 	golang.org/x/mod v0.35.0 // indirect
 	golang.org/x/sys v0.43.0 // indirect
-	golang.org/x/text v0.36.0 // indirect
 	gotest.tools/v3 v3.5.2 // indirect
 )
