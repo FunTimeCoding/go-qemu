@@ -13,7 +13,6 @@ import (
 func CreateDomain() {
 	c := qemu.New()
 	defer c.Close()
-
 	v := debian.Bookworm.Version()
 	installImage := join.Absolute(
 		system.Home(),

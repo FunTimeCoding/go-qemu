@@ -4,7 +4,7 @@ tasks:
   default: {cmds: [{task: lint}, {task: test}, {task: build}], silent: true}
   pre-push: {cmds: [{task: lint}, {task: test}], silent: true}
   lint: {cmds: ['golint --fix', 'golangci-lint run'], silent: true}
-  test: {cmds: ['gotestsum --format standard-quiet'], silent: true}
+  test: {cmds: ['gotestsum --format dots'], silent: true}
   build: {cmds: [gobuild], silent: true}
   update: {cmds: [goupdate], silent: true}
   update-library: {cmds: ['goupdate --exclusive funtimecoding'], silent: true}

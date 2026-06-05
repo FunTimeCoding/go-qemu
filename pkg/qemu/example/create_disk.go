@@ -11,7 +11,6 @@ import (
 func CreateDisk() {
 	c := qemu.New()
 	defer c.Close()
-
 	diskPath := join.Absolute(
 		system.Home(),
 		constant.DownloadsPath,

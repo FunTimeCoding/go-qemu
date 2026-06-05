@@ -14,7 +14,6 @@ import (
 func New() *Client {
 	virt, f := libvirt.NewConnect("qemu:///system")
 	errors.PanicOnError(f)
-
 	socket := "/opt/homebrew/var/run/libvirt/libvirt-sock"
 	timeout := 2 * time.Second
 	d := digital.NewWithDialer(

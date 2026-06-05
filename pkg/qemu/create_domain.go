@@ -4,19 +4,10 @@ import (
 	"fmt"
 	"github.com/funtimecoding/go-library/pkg/errors"
 	"github.com/funtimecoding/go-library/pkg/system/join"
+	"github.com/funtimecoding/go-qemu/pkg/qemu/constant"
 	"libvirt.org/go/libvirt"
 	"libvirt.org/go/libvirtxml"
 	"net"
-)
-
-const (
-	Gibibyte = "GiB"
-
-	SmallType      = "scsi"
-	PeripheralType = "pci"
-
-	ExpressRoot     = "pcie-root"
-	ExpressRootPort = "pcie-root-port"
 )
 
 func (c *Client) CreateDomain(
@@ -25,9 +16,7 @@ func (c *Client) CreateDomain(
 	memoryGibibytes uint,
 	h net.HardwareAddr,
 	installImage string,
-) *libvirt.Domain {
-	ports := uint(15)
-	// noinspection HttpUrlsUsage
+) *libvirt.Domain { // noinspection HttpUrlsUsage
 	var d = &libvirtxml.Domain{
 		Name: name,
 		Type: "hvf",
@@ -45,11 +34,11 @@ func (c *Client) CreateDomain(
 		},
 		Memory: &libvirtxml.DomainMemory{
 			Value: memoryGibibytes,
-			Unit:  Gibibyte,
+			Unit:  constant.Gibibyte,
 		},
 		CurrentMemory: &libvirtxml.DomainCurrentMemory{
 			Value: memoryGibibytes,
-			Unit:  Gibibyte,
+			Unit:  constant.Gibibyte,
 		},
 		VCPU: &libvirtxml.DomainVCPU{Value: cores},
 		OS: &libvirtxml.DomainOS{
@@ -114,24 +103,66 @@ func (c *Client) CreateDomain(
 			Controllers: []libvirtxml.DomainController{
 				{
 					Type: "usb", Model: "qemu-xhci",
-					USB: &libvirtxml.DomainControllerUSB{Port: &ports},
+					USB: &libvirtxml.DomainControllerUSB{Port: new(uint(15))},
 				},
-				{Type: SmallType, Model: "virtio-scsi"},
-				{Type: PeripheralType, Model: ExpressRoot},
-				{Type: PeripheralType, Model: ExpressRootPort},
-				{Type: PeripheralType, Model: ExpressRootPort},
-				{Type: PeripheralType, Model: ExpressRootPort},
-				{Type: PeripheralType, Model: ExpressRootPort},
-				{Type: PeripheralType, Model: ExpressRootPort},
-				{Type: PeripheralType, Model: ExpressRootPort},
-				{Type: PeripheralType, Model: ExpressRootPort},
-				{Type: PeripheralType, Model: ExpressRootPort},
-				{Type: PeripheralType, Model: ExpressRootPort},
-				{Type: PeripheralType, Model: ExpressRootPort},
-				{Type: PeripheralType, Model: ExpressRootPort},
-				{Type: PeripheralType, Model: ExpressRootPort},
-				{Type: PeripheralType, Model: ExpressRootPort},
-				{Type: PeripheralType, Model: ExpressRootPort},
+				{Type: constant.SmallType, Model: "virtio-scsi"},
+				{Type: constant.PeripheralType, Model: constant.ExpressRoot},
+				{
+					Type:  constant.PeripheralType,
+					Model: constant.ExpressRootPort,
+				},
+				{
+					Type:  constant.PeripheralType,
+					Model: constant.ExpressRootPort,
+				},
+				{
+					Type:  constant.PeripheralType,
+					Model: constant.ExpressRootPort,
+				},
+				{
+					Type:  constant.PeripheralType,
+					Model: constant.ExpressRootPort,
+				},
+				{
+					Type:  constant.PeripheralType,
+					Model: constant.ExpressRootPort,
+				},
+				{
+					Type:  constant.PeripheralType,
+					Model: constant.ExpressRootPort,
+				},
+				{
+					Type:  constant.PeripheralType,
+					Model: constant.ExpressRootPort,
+				},
+				{
+					Type:  constant.PeripheralType,
+					Model: constant.ExpressRootPort,
+				},
+				{
+					Type:  constant.PeripheralType,
+					Model: constant.ExpressRootPort,
+				},
+				{
+					Type:  constant.PeripheralType,
+					Model: constant.ExpressRootPort,
+				},
+				{
+					Type:  constant.PeripheralType,
+					Model: constant.ExpressRootPort,
+				},
+				{
+					Type:  constant.PeripheralType,
+					Model: constant.ExpressRootPort,
+				},
+				{
+					Type:  constant.PeripheralType,
+					Model: constant.ExpressRootPort,
+				},
+				{
+					Type:  constant.PeripheralType,
+					Model: constant.ExpressRootPort,
+				},
 			},
 			Interfaces: []libvirtxml.DomainInterface{
 				{
