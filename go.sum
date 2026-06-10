@@ -7,8 +7,8 @@ github.com/digitalocean/go-libvirt v0.0.0-20260217163227-273eaa321819 h1:1LiSa7N
 github.com/digitalocean/go-libvirt v0.0.0-20260217163227-273eaa321819/go.mod h1:qb0Ofa71d3oXARQf633h2tNaeBxLsVxuDp+jcsVO2+4=
 github.com/digitalocean/go-qemu v0.0.0-20250212194115-ee9b0668d242 h1:rh6rt8pF5U4iyQ86h6lRDenJoX4ht2wFnZXB9ogIrIM=
 github.com/digitalocean/go-qemu v0.0.0-20250212194115-ee9b0668d242/go.mod h1:LGHUtlhsY4vRGM6AHejEQKVI5e3eHbSylMHwTSpQtVw=
-github.com/funtimecoding/go-library v0.10.482 h1:zEMSZnXsV7njYbwCRAkSHKwi349+BgSQd5iiz2Ny9UA=
-github.com/funtimecoding/go-library v0.10.482/go.mod h1:Cv6UM2omzFBCDiIJqhht/RguzYdpIfwQFjlW3EWewq0=
+github.com/funtimecoding/go-library v0.10.483 h1:QWSDWc/jg+XogJcbdSF25k7O7yC1djd5o1sp5czG8DI=
+github.com/funtimecoding/go-library v0.10.483/go.mod h1:Cv6UM2omzFBCDiIJqhht/RguzYdpIfwQFjlW3EWewq0=
 github.com/go-openapi/errors v0.22.8 h1:oP7sW7TWc3wFFjrzzj0nI83H2qMBkNjNfSd+XRejk/I=
 github.com/go-openapi/errors v0.22.8/go.mod h1:BuUoHcYrU6E7V9gfj1I5wLQqgtIHnup/alXZ8KdgQ0w=
 github.com/go-openapi/strfmt v0.26.3 h1:rzmslHarJgBbf2qfGge+X3htclQfmXqBZMm0Too0HhU=
